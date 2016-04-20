@@ -10,3 +10,8 @@ exec('"C:\Program Files (x86)\PostgreSQL\9.3\bin\shp2pgsql" -s 4236 '.$filename_
 - C:\Program Files (x86)\PostgreSQL\9.3\bin\psql , sama seperti penjelasan sebelumnya, anda hanya cukup mengarahkan direktori dimana aplikasi psql berada.
 - -U berfungsi untuk mengatur username postgre.
 - -d berfungsi untuk mengarahkan ke database mana file shp ini akan di import. pada contoh saya mengahkannya ke database "coba_shp".
+ 
+### Panduan Lengkap
+Panduan ini berisi perintah command line yang tersedia di postgist.
+[BACA](https://github.com/dyazincahya/Import-Shp2pgsql-PHP/blob/master/Shp2pgsql%20Quick%20Guide.pdf)
+
