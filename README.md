@@ -14,5 +14,5 @@ exec('"C:\Program Files (x86)\PostgreSQL\9.3\bin\shp2pgsql" -s 4236 '.$filename_
  
 ### Panduan Lengkap
 Panduan ini berisi perintah command line yang tersedia di postgist.
-[BACA](https://github.com/dyazincahya/Import-Shp2pgsql-PHP/blob/master/Shp2pgsql%20Quick%20Guide.pdf)
+[BACA PDF](https://github.com/dyazincahya/Import-Shp2pgsql-PHP/blob/master/Shp2pgsql%20Quick%20Guide.pdf) <> [BACA WEB](http://www.bostongis.com/pgsql2shp_shp2pgsql_quickguide.bqg)
 
