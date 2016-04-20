@@ -3,6 +3,7 @@ Import Shp File dengan PHP
 
 ### Keterangan
 exec('"C:\Program Files (x86)\PostgreSQL\9.3\bin\shp2pgsql" -s 4236 '.$filename_new.' test90 | "C:\Program Files (x86)\PostgreSQL\9.3\bin\psql" -U postgres -d coba_shp');
+- exec() merupakan fungsi php yang berguna untuk mengeksekuli (menjalankan) perintah yang terpadat pada command line
 - C:\Program Files (x86)\PostgreSQL\9.3\bin\shp2pgsql , di bagian ini anda bisa sesuaikan sendiri, arahkan ke aplikasi shp2pgsql, misalkan anda menginstall postgre di drive D, maka arahkan direktori-nya, ikuti contoh di atas.
 - -s berfungsi untuk mengatur srid, default srid adalah 4236.
 - $filename_new merupakan variabel yang berisi directori sekaligus nama file.
