@@ -1,4 +1,4 @@
-# Import-Shp2pgsql-PHP
+# Simple-Import-Shp2pgsql-PHP
 Import Shp File dengan PHP
 
 ### Keterangan
